@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TEArrayDiffCalculator_Example', :exclusive => true do
+  pod "TEArrayDiffCalculator", :path => "../"
+end
+
+target 'TEArrayDiffCalculator_Tests', :exclusive => true do
+  pod "TEArrayDiffCalculator", :path => "../"
+
+  pod 'Kiwi'
+end
