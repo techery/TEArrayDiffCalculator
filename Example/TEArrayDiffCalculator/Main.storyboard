@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +17,44 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z2o-jA-ZWj">
+                                <rect key="frame" x="20" y="58" width="560" height="542"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ci-If-W1h">
+                                <rect key="frame" x="265" y="20" width="70" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Add Items"/>
+                                <connections>
+                                    <action selector="updateItems:" destination="whP-gf-Uak" eventType="touchUpInside" id="F9t-Rl-zof"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Z2o-jA-ZWj" firstAttribute="top" secondItem="6ci-If-W1h" secondAttribute="bottom" constant="8" id="1tt-8v-bw4"/>
+                            <constraint firstItem="6ci-If-W1h" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="4xN-ax-9Jz"/>
+                            <constraint firstItem="Z2o-jA-ZWj" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="Q6m-8D-TTc"/>
+                            <constraint firstItem="6ci-If-W1h" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="RCg-QX-jDe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z2o-jA-ZWj" secondAttribute="trailing" id="cCG-BO-H7Y"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="Z2o-jA-ZWj" secondAttribute="bottom" id="qcd-X4-z2d"/>
+                            <constraint firstItem="6ci-If-W1h" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="top" id="quI-aG-cXc"/>
+                            <constraint firstItem="6ci-If-W1h" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="uS5-bP-RRd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="quI-aG-cXc"/>
+                                <exclude reference="uS5-bP-RRd"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="Z2o-jA-ZWj" id="Fpj-YL-tla"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
