@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi (2.4.0)
+  - TEArrayDiffCalculator (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - TEArrayDiffCalculator (from `../`)
+
+EXTERNAL SOURCES:
+  TEArrayDiffCalculator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  TEArrayDiffCalculator: 45c38017a75c688b501e9bacffd1cc72546651c7
+
+COCOAPODS: 0.38.2
