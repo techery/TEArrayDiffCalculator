@@ -1,0 +1,25 @@
+{
+  "name": "TEArrayDiffCalculator",
+  "version": "0.1.0",
+  "summary": "A short description of TEArrayDiffCalculator.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TEArrayDiffCalculator",
+  "license": "MIT",
+  "authors": {
+    "Anastasiya Gorban": "gorbannastya@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TEArrayDiffCalculator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TEArrayDiffCalculator": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
