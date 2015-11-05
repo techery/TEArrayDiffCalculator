@@ -1,6 +1,5 @@
 # TEArrayDiffCalculator
 
-[![CI Status](https://travis-ci.org/techery/TEArrayDiffCalculator.svg?style=flat)](https://travis-ci.org/techery/TEArrayDiffCalculator)
 [![Version](https://img.shields.io/cocoapods/v/TEArrayDiffCalculator.svg?style=flat)](http://cocoapods.org/pods/TEArrayDiffCalculator)
 [![License](https://img.shields.io/cocoapods/l/TEArrayDiffCalculator.svg?style=flat)](http://cocoapods.org/pods/TEArrayDiffCalculator)
 [![Platform](https://img.shields.io/cocoapods/p/TEArrayDiffCalculator.svg?style=flat)](http://cocoapods.org/pods/TEArrayDiffCalculator)
