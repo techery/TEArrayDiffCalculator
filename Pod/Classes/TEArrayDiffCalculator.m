@@ -115,6 +115,11 @@
     NSMutableArray *result = [NSMutableArray new];
     for (int i = 0; i < mergedArray.count; i++) {
         id<TEUnique> oldObj = mergedArray[i];
+        
+        if (i >= newArray.count) {
+            break;
+        }
+        
         id<TEUnique> newObj = newArray[i];
         if (![oldObj.identifier isEqual:newObj.identifier]) {
             NSInteger fromIndex = i;
