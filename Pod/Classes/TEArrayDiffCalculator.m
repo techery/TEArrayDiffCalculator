@@ -91,6 +91,10 @@
     
     NSMutableArray *updatedDiffs = [NSMutableArray new];
     [mergedArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if (idx >= newArray.count) {
+            return;
+        }
+        
         id object = newArray[idx];
         if (![object isEqual:obj]) {
             TEDiffIndex *diff = [TEDiffIndex diffWithIndex:[oldArray indexOfObject:obj]];
@@ -115,6 +119,11 @@
     NSMutableArray *result = [NSMutableArray new];
     for (int i = 0; i < mergedArray.count; i++) {
         id<TEUnique> oldObj = mergedArray[i];
+        
+        if (i >= newArray.count) {
+            continue;
+        }
+        
         id<TEUnique> newObj = newArray[i];
         if (![oldObj.identifier isEqual:newObj.identifier]) {
             NSInteger fromIndex = i;
@@ -122,6 +131,11 @@
             [result addObject:[TEDiffIndex diffWithFromIndex:fromIndex toIndex:toIndex]];
             
             id tempObj = [mergedArray objectAtIndex:i];
+            
+            if (toIndex >= mergedArray.count) {
+                continue;
+            }
+            
             [mergedArray replaceObjectAtIndex:i withObject:[mergedArray objectAtIndex:toIndex]];
             [mergedArray replaceObjectAtIndex:toIndex withObject:tempObj];            
         }
