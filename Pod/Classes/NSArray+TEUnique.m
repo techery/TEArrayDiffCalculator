@@ -3,7 +3,7 @@
 // Copyright (c) 2015 World Ventures. All rights reserved.
 //
 
-#import "NSArray+Functional.h"
+#import "NSArray+DCFunctional.h"
 #import "TEUnique.h"
 
 @implementation NSArray (TEUnique)

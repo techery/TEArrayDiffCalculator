@@ -7,7 +7,7 @@
 #import "TEDiffIndex.h"
 #import "TEUnique.h"
 #import "TEArrayDiff.h"
-#import "NSArray+Functional.h"
+#import "NSArray+DCFunctional.h"
 #import "NSArray+TEUnique.h"
 
 
