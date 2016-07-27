@@ -71,8 +71,8 @@
 		4ABFA0D10CE58856FD369E74BB55C01B /* KWBeWithinMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4484434CC8FB993F7C6DF7309DA1D6E7 /* KWBeWithinMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4B80262D3C1F0A6D8C873F7B1C8C241E /* KWBeBetweenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 267FB237D71C54F7F07C85379A1E0D11 /* KWBeBetweenMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4BEBFB98ED2C419988808EC4F34EF191 /* KWSuiteConfigurationBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D65D130CEC8602E2BC4B857460D2836 /* KWSuiteConfigurationBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4DBCC2E01BE8A31E007E4D7D /* NSArray+TEUnique.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBCC2DE1BE8A31E007E4D7D /* NSArray+TEUnique.h */; settings = {ASSET_TAGS = (); }; };
-		4DBCC2E11BE8A31E007E4D7D /* NSArray+TEUnique.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2DF1BE8A31E007E4D7D /* NSArray+TEUnique.m */; settings = {ASSET_TAGS = (); }; };
+		4DBCC2E01BE8A31E007E4D7D /* NSArray+TEUnique.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBCC2DE1BE8A31E007E4D7D /* NSArray+TEUnique.h */; };
+		4DBCC2E11BE8A31E007E4D7D /* NSArray+TEUnique.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2DF1BE8A31E007E4D7D /* NSArray+TEUnique.m */; };
 		4F50050097D0FEE3D67C815A5763C9F8 /* KWBeZeroMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E72061928C9400A3AFF9A4E571B21E5 /* KWBeZeroMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4FA6067DC8D011F06CD138A240DE01D3 /* KWExistVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D196DC565B253258365CB6ED7067E82 /* KWExistVerifier.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		516169BC3429204AAE12676213756FF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7638199D3B397FBF4911DFB1269A9350 /* Foundation.framework */; };
@@ -200,6 +200,22 @@
 		EC8706DE3D9ED8341600B8A9D3FF1444 /* KWValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF8E7F2309BF26CD6950116F6E41D64 /* KWValue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		ED48E827422523C2C20887439689318D /* TEMoveIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD90FC1736FCA50A8E8DDE442848E8 /* TEMoveIndexPath.m */; };
 		EDF1691B5F2EFBCD97E0944985B5C4A2 /* NSObject+KiwiMockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A19501AF0022CBEC7423A13A0C024ED /* NSObject+KiwiMockAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF00CE801D48EE0A00540941 /* TEArrayDiffCalculatorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EF00CE7F1D48EE0A00540941 /* TEArrayDiffCalculatorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF00CE851D48EE3D00540941 /* NSArray+TEUnique.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2DF1BE8A31E007E4D7D /* NSArray+TEUnique.m */; };
+		EF00CE861D48EE3D00540941 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 6887A810AECE9A37679652F8A91FE429 /* NSArray+Functional.m */; };
+		EF00CE871D48EE3D00540941 /* TEArrayDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BC45CAEAA6B42D2FBD75ACFFF75E0 /* TEArrayDiff.m */; };
+		EF00CE881D48EE3D00540941 /* TEArrayDiff+NSIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6DB46247CEFB91B380F02C527DD28E /* TEArrayDiff+NSIndexPath.m */; };
+		EF00CE891D48EE3D00540941 /* TEArrayDiffCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C7294CA7EB2E4B3B40E6E6DE6EC858A8 /* TEArrayDiffCalculator.m */; };
+		EF00CE8A1D48EE3D00540941 /* TEDiffIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D6BC9463F1A076B02023407E22010 /* TEDiffIndex.m */; };
+		EF00CE8B1D48EE3D00540941 /* TEMoveIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD90FC1736FCA50A8E8DDE442848E8 /* TEMoveIndexPath.m */; };
+		EF00CE8C1D48EE4B00540941 /* NSArray+TEUnique.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBCC2DE1BE8A31E007E4D7D /* NSArray+TEUnique.h */; };
+		EF00CE8D1D48EE4B00540941 /* NSArray+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C043E69E1EF79D3EAA3D88A708A0D4 /* NSArray+Functional.h */; };
+		EF00CE8E1D48EE4B00540941 /* TEArrayDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = F4874ACA97BCF21CFFB95D4EB98F628F /* TEArrayDiff.h */; };
+		EF00CE8F1D48EE4B00540941 /* TEArrayDiff+NSIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 374997EDBFA772163CCAA6D36D867535 /* TEArrayDiff+NSIndexPath.h */; };
+		EF00CE901D48EE4B00540941 /* TEArrayDiffCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EECE26A5BE08E2863D0D89F4EEDBC47 /* TEArrayDiffCalculator.h */; };
+		EF00CE911D48EE4B00540941 /* TEDiffIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 457C86530CFF20C222A5263B07FF3026 /* TEDiffIndex.h */; };
+		EF00CE921D48EE4B00540941 /* TEMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = D31002C97365E632DCF776E9A7333560 /* TEMoveIndexPath.h */; };
+		EF00CE931D48EE4B00540941 /* TEUnique.h in Headers */ = {isa = PBXBuildFile; fileRef = 05751E878E7ECC49368250E2A9A4B70B /* TEUnique.h */; };
 		F0620E064365DFC29A54B9F391A2E4E3 /* KWMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 103A68A6CDF0D4DE7FDA2EDA3D013B8B /* KWMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F1398789770B211E3934D0EC5206CFB1 /* KWConformToProtocolMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F11AA360B5CEE8513D1F667C06ED9 /* KWConformToProtocolMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F3E35F001A5129589B3765207480305B /* TEArrayDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = F4874ACA97BCF21CFFB95D4EB98F628F /* TEArrayDiff.h */; };
@@ -461,6 +477,9 @@
 		EACFACDDF941582D136E3DC39C8325E3 /* KWItNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWItNode.h; path = Classes/Nodes/KWItNode.h; sourceTree = "<group>"; };
 		EB3C0AF1B0663AF22A5581A41AC3C5B2 /* KWSharedExampleRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSharedExampleRegistry.m; path = "Classes/Shared Examples/KWSharedExampleRegistry.m"; sourceTree = "<group>"; };
 		EE35BFE26A5C9E35930C055CA1BCEF69 /* Pods-TEArrayDiffCalculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TEArrayDiffCalculator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EF00CE7D1D48EE0A00540941 /* TEArrayDiffCalculatorFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TEArrayDiffCalculatorFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF00CE7F1D48EE0A00540941 /* TEArrayDiffCalculatorFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEArrayDiffCalculatorFramework.h; sourceTree = "<group>"; };
+		EF00CE811D48EE0A00540941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F058F4FA9B56B803CFD916EB55A419B2 /* KWExistVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExistVerifier.h; path = Classes/Verifiers/KWExistVerifier.h; sourceTree = "<group>"; };
 		F1AB02EBC14357400E0296DFD4B8005B /* libKiwi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKiwi.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2603705C1EE109E58365799644EC8BB /* KWBeZeroMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeZeroMatcher.h; path = Classes/Matchers/KWBeZeroMatcher.h; sourceTree = "<group>"; };
@@ -516,6 +535,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				516169BC3429204AAE12676213756FF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF00CE791D48EE0A00540941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,6 +827,7 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				F6E449EAE1A04AF8291117BFF4221BAE /* Development Pods */,
+				EF00CE7E1D48EE0A00540941 /* TEArrayDiffCalculatorFramework */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				7108F56D84041611FE9B454DB0C5D033 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
@@ -852,6 +879,7 @@
 				B6AB18B1B2681A9E163020F9209061C4 /* libPods-TEArrayDiffCalculator_Example.a */,
 				A923F12D873C6EE564C456B3788A9A11 /* libPods-TEArrayDiffCalculator_Tests.a */,
 				736F71868EB0C950C9ECF262552165EE /* libTEArrayDiffCalculator.a */,
+				EF00CE7D1D48EE0A00540941 /* TEArrayDiffCalculatorFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -862,6 +890,15 @@
 				8529BA0F049E5CB9ED67BB16E1D8DFDF /* Classes */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		EF00CE7E1D48EE0A00540941 /* TEArrayDiffCalculatorFramework */ = {
+			isa = PBXGroup;
+			children = (
+				EF00CE7F1D48EE0A00540941 /* TEArrayDiffCalculatorFramework.h */,
+				EF00CE811D48EE0A00540941 /* Info.plist */,
+			);
+			path = TEArrayDiffCalculatorFramework;
 			sourceTree = "<group>";
 		};
 		F6E449EAE1A04AF8291117BFF4221BAE /* Development Pods */ = {
@@ -996,6 +1033,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF00CE7A1D48EE0A00540941 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF00CE911D48EE4B00540941 /* TEDiffIndex.h in Headers */,
+				EF00CE8E1D48EE4B00540941 /* TEArrayDiff.h in Headers */,
+				EF00CE801D48EE0A00540941 /* TEArrayDiffCalculatorFramework.h in Headers */,
+				EF00CE901D48EE4B00540941 /* TEArrayDiffCalculator.h in Headers */,
+				EF00CE921D48EE4B00540941 /* TEMoveIndexPath.h in Headers */,
+				EF00CE8F1D48EE4B00540941 /* TEArrayDiff+NSIndexPath.h in Headers */,
+				EF00CE931D48EE4B00540941 /* TEUnique.h in Headers */,
+				EF00CE8D1D48EE4B00540941 /* NSArray+Functional.h in Headers */,
+				EF00CE8C1D48EE4B00540941 /* NSArray+TEUnique.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1086,6 +1139,24 @@
 			productReference = 736F71868EB0C950C9ECF262552165EE /* libTEArrayDiffCalculator.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		EF00CE7C1D48EE0A00540941 /* TEArrayDiffCalculatorFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF00CE841D48EE0A00540941 /* Build configuration list for PBXNativeTarget "TEArrayDiffCalculatorFramework" */;
+			buildPhases = (
+				EF00CE781D48EE0A00540941 /* Sources */,
+				EF00CE791D48EE0A00540941 /* Frameworks */,
+				EF00CE7A1D48EE0A00540941 /* Headers */,
+				EF00CE7B1D48EE0A00540941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEArrayDiffCalculatorFramework;
+			productName = TEArrayDiffCalculatorFramework;
+			productReference = EF00CE7D1D48EE0A00540941 /* TEArrayDiffCalculatorFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1094,6 +1165,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					EF00CE7C1D48EE0A00540941 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1112,12 +1188,20 @@
 				B01E0E809579516B3D1B089AA2AB40C9 /* Pods-TEArrayDiffCalculator_Tests */,
 				E8B75B9D59538C3A487A80EE22A5AA29 /* TEArrayDiffCalculator */,
 				24E203920B1BF432E4D47351A0EB82B2 /* TEArrayDiffCalculator-TEArrayDiffCalculator */,
+				EF00CE7C1D48EE0A00540941 /* TEArrayDiffCalculatorFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8851FD593D4EBA1573E4E1587E40D2E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF00CE7B1D48EE0A00540941 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1255,6 +1339,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA78F52A967B434292B344F108FAE2E7 /* Pods-TEArrayDiffCalculator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF00CE781D48EE0A00540941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF00CE851D48EE3D00540941 /* NSArray+TEUnique.m in Sources */,
+				EF00CE8B1D48EE3D00540941 /* TEMoveIndexPath.m in Sources */,
+				EF00CE871D48EE3D00540941 /* TEArrayDiff.m in Sources */,
+				EF00CE881D48EE3D00540941 /* TEArrayDiff+NSIndexPath.m in Sources */,
+				EF00CE891D48EE3D00540941 /* TEArrayDiffCalculator.m in Sources */,
+				EF00CE8A1D48EE3D00540941 /* TEDiffIndex.m in Sources */,
+				EF00CE861D48EE3D00540941 /* NSArray+Functional.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1513,6 +1611,72 @@
 			};
 			name = Release;
 		};
+		EF00CE821D48EE0A00540941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TEArrayDiffCalculatorFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.techery.TEArrayDiffCalculatorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF00CE831D48EE0A00540941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TEArrayDiffCalculatorFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = io.techery.TEArrayDiffCalculatorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1551,6 +1715,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EF00CE841D48EE0A00540941 /* Build configuration list for PBXNativeTarget "TEArrayDiffCalculatorFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF00CE821D48EE0A00540941 /* Debug */,
+				EF00CE831D48EE0A00540941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		F157A8F7B73851F7B861F371A1E425BB /* Build configuration list for PBXNativeTarget "TEArrayDiffCalculator" */ = {
 			isa = XCConfigurationList;
