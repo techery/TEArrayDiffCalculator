@@ -11,7 +11,7 @@
 @implementation TEArrayDiff (NSIndexPath)
 
 - (NSArray<NSIndexPath *> *)insertedIndexPathsForSection:(NSUInteger)section {
-    return [self transformDiffsToIndexPaths:self.inserted forSection:0];
+    return [self transformDiffsToIndexPaths:self.inserted forSection:section];
 }
 
 - (NSArray<NSIndexPath *> *)insertedIndexPaths {
@@ -19,7 +19,7 @@
 }
 
 - (NSArray<NSIndexPath *> *)deletedIndexPathsForSection:(NSUInteger)section {
-    return [self transformDiffsToIndexPaths:self.deleted forSection:0];
+    return [self transformDiffsToIndexPaths:self.deleted forSection:section];
 }
 
 - (NSArray<NSIndexPath *> *)deletedIndexPaths {

@@ -76,14 +76,24 @@
     NSMutableArray *mergedArray = [NSMutableArray arrayWithArray:oldArray];
     
     [[[self.deleted reverseObjectEnumerator] allObjects] enumerateObjectsUsingBlock:^(TEDiffIndex *obj, NSUInteger idx, BOOL *stop) {
+        if (obj.index >= mergedArray.count) {
+            return;
+        }
         [mergedArray removeObjectAtIndex:obj.index];
     }];
     
     [self.inserted enumerateObjectsUsingBlock:^(TEDiffIndex *obj, NSUInteger idx, BOOL *stop) {
+        if (obj.index >= newArray.count) {
+            return;
+        }
+        
         [mergedArray insertObject:newArray[obj.index] atIndex:obj.index];
     }];    
     
     [self.moved enumerateObjectsUsingBlock:^(TEDiffIndex *diffIndex, NSUInteger idx, BOOL *stop) {
+        if (diffIndex.fromIndex >= mergedArray.count || diffIndex.index >= mergedArray.count) {
+            return;
+        }
         id tempObj = [mergedArray objectAtIndex:diffIndex.fromIndex];
         [mergedArray replaceObjectAtIndex:diffIndex.fromIndex withObject:[mergedArray objectAtIndex:diffIndex.index]];
         [mergedArray replaceObjectAtIndex:diffIndex.index withObject:tempObj];
@@ -91,6 +101,10 @@
     
     NSMutableArray *updatedDiffs = [NSMutableArray new];
     [mergedArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if (idx >= newArray.count) {
+            return;
+        }
+        
         id object = newArray[idx];
         if (![object isEqual:obj]) {
             TEDiffIndex *diff = [TEDiffIndex diffWithIndex:[oldArray indexOfObject:obj]];
@@ -115,6 +129,11 @@
     NSMutableArray *result = [NSMutableArray new];
     for (int i = 0; i < mergedArray.count; i++) {
         id<TEUnique> oldObj = mergedArray[i];
+        
+        if (i >= newArray.count) {
+            continue;
+        }
+        
         id<TEUnique> newObj = newArray[i];
         if (![oldObj.identifier isEqual:newObj.identifier]) {
             NSInteger fromIndex = i;
@@ -122,6 +141,11 @@
             [result addObject:[TEDiffIndex diffWithFromIndex:fromIndex toIndex:toIndex]];
             
             id tempObj = [mergedArray objectAtIndex:i];
+            
+            if (toIndex >= mergedArray.count) {
+                continue;
+            }
+            
             [mergedArray replaceObjectAtIndex:i withObject:[mergedArray objectAtIndex:toIndex]];
             [mergedArray replaceObjectAtIndex:toIndex withObject:tempObj];            
         }
