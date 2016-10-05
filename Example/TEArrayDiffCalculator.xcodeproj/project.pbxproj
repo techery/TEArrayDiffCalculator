@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DBCC2C91BE75149007E4D7D /* DTArrayDiffCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2C81BE75149007E4D7D /* DTArrayDiffCalculatorSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4DBCC2D31BE7AB9D007E4D7D /* TEExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2D21BE7AB9D007E4D7D /* TEExampleModel.m */; settings = {ASSET_TAGS = (); }; };
-		4DBCC2E41BE8B9EE007E4D7D /* TETableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2E31BE8B9EE007E4D7D /* TETableViewDataSource.m */; settings = {ASSET_TAGS = (); }; };
-		4DBCC2E71BE8BB5B007E4D7D /* TEExampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2E61BE8BB5B007E4D7D /* TEExampleTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		4DBCC2C91BE75149007E4D7D /* DTArrayDiffCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2C81BE75149007E4D7D /* DTArrayDiffCalculatorSpec.m */; };
+		4DBCC2D31BE7AB9D007E4D7D /* TEExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2D21BE7AB9D007E4D7D /* TEExampleModel.m */; };
+		4DBCC2E41BE8B9EE007E4D7D /* TETableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2E31BE8B9EE007E4D7D /* TETableViewDataSource.m */; };
+		4DBCC2E71BE8BB5B007E4D7D /* TEExampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCC2E61BE8BB5B007E4D7D /* TEExampleTableViewCell.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,9 +23,9 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6A1E86C227C5B71DD62E8530 /* libPods-TEArrayDiffCalculator_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6BF7307AF80F8B94F2DC23 /* libPods-TEArrayDiffCalculator_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E9C085C3D362874EE143F0C1 /* libPods-TEArrayDiffCalculator_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D2367857C031304C83AC78 /* libPods-TEArrayDiffCalculator_Tests.a */; };
+		A06F1C51FD408BD24CF0D751 /* libPods-TEArrayDiffCalculator_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 996C619154CC90E97F839471 /* libPods-TEArrayDiffCalculator_Example.a */; };
+		D3935C2BDF1165820CBC5338 /* libPods-TEArrayDiffCalculator_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C86D1889FEC666A79F8B935 /* libPods-TEArrayDiffCalculator_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0822FE9CD06B57458534B671 /* Pods-TEArrayDiffCalculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEArrayDiffCalculator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TEArrayDiffCalculator_Example/Pods-TEArrayDiffCalculator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		31CF25D026DAC521A82F8B71 /* Pods-TEArrayDiffCalculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEArrayDiffCalculator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TEArrayDiffCalculator_Tests/Pods-TEArrayDiffCalculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		06E04C45E4CB23CC0726380F /* Pods-TEArrayDiffCalculator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEArrayDiffCalculator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TEArrayDiffCalculator_Example/Pods-TEArrayDiffCalculator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0C86D1889FEC666A79F8B935 /* libPods-TEArrayDiffCalculator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TEArrayDiffCalculator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1E1AC100F60A4E70F2B9F3 /* Pods-TEArrayDiffCalculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEArrayDiffCalculator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TEArrayDiffCalculator_Example/Pods-TEArrayDiffCalculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		371F9F2C85BF918BCC916CD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4011DC9DA9471290C752CAAC /* Pods-TEArrayDiffCalculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEArrayDiffCalculator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TEArrayDiffCalculator_Tests/Pods-TEArrayDiffCalculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DBCC2C81BE75149007E4D7D /* DTArrayDiffCalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTArrayDiffCalculatorSpec.m; sourceTree = "<group>"; };
 		4DBCC2CD1BE7A959007E4D7D /* TEModelTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEModelTransfer.h; sourceTree = "<group>"; };
 		4DBCC2D11BE7AB9D007E4D7D /* TEExampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEExampleModel.h; sourceTree = "<group>"; };
@@ -68,13 +70,11 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65062837A52C2EB7A97B7C20 /* Pods-TEArrayDiffCalculator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEArrayDiffCalculator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TEArrayDiffCalculator_Tests/Pods-TEArrayDiffCalculator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		96337CB88BC4CFDF2BC304E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		996C619154CC90E97F839471 /* libPods-TEArrayDiffCalculator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TEArrayDiffCalculator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42454C0CFADD05F18283294 /* TEArrayDiffCalculator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TEArrayDiffCalculator.podspec; path = ../TEArrayDiffCalculator.podspec; sourceTree = "<group>"; };
-		D5C7F927E128D673271F41A9 /* Pods-TEArrayDiffCalculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEArrayDiffCalculator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TEArrayDiffCalculator_Example/Pods-TEArrayDiffCalculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD6BF7307AF80F8B94F2DC23 /* libPods-TEArrayDiffCalculator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TEArrayDiffCalculator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5D2367857C031304C83AC78 /* libPods-TEArrayDiffCalculator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TEArrayDiffCalculator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE67AECDEB35CEA4111D6DAD /* Pods-TEArrayDiffCalculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEArrayDiffCalculator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TEArrayDiffCalculator_Tests/Pods-TEArrayDiffCalculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6A1E86C227C5B71DD62E8530 /* libPods-TEArrayDiffCalculator_Example.a in Frameworks */,
+				A06F1C51FD408BD24CF0D751 /* libPods-TEArrayDiffCalculator_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E9C085C3D362874EE143F0C1 /* libPods-TEArrayDiffCalculator_Tests.a in Frameworks */,
+				D3935C2BDF1165820CBC5338 /* libPods-TEArrayDiffCalculator_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				B335D3CE0CC5661B0F608EC4 /* Pods */,
+				71A5456C610BCD28C1498128 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,8 +131,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DD6BF7307AF80F8B94F2DC23 /* libPods-TEArrayDiffCalculator_Example.a */,
-				F5D2367857C031304C83AC78 /* libPods-TEArrayDiffCalculator_Tests.a */,
+				996C619154CC90E97F839471 /* libPods-TEArrayDiffCalculator_Example.a */,
+				0C86D1889FEC666A79F8B935 /* libPods-TEArrayDiffCalculator_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,13 +199,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B335D3CE0CC5661B0F608EC4 /* Pods */ = {
+		71A5456C610BCD28C1498128 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D5C7F927E128D673271F41A9 /* Pods-TEArrayDiffCalculator_Example.debug.xcconfig */,
-				0822FE9CD06B57458534B671 /* Pods-TEArrayDiffCalculator_Example.release.xcconfig */,
-				65062837A52C2EB7A97B7C20 /* Pods-TEArrayDiffCalculator_Tests.debug.xcconfig */,
-				31CF25D026DAC521A82F8B71 /* Pods-TEArrayDiffCalculator_Tests.release.xcconfig */,
+				1B1E1AC100F60A4E70F2B9F3 /* Pods-TEArrayDiffCalculator_Example.debug.xcconfig */,
+				06E04C45E4CB23CC0726380F /* Pods-TEArrayDiffCalculator_Example.release.xcconfig */,
+				4011DC9DA9471290C752CAAC /* Pods-TEArrayDiffCalculator_Tests.debug.xcconfig */,
+				EE67AECDEB35CEA4111D6DAD /* Pods-TEArrayDiffCalculator_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -217,11 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TEArrayDiffCalculator_Example" */;
 			buildPhases = (
-				F312C1EE181A37E4D8BA9129 /* Check Pods Manifest.lock */,
+				8E99883A3D7877DF60B37807 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C01D500A7590D433D401C28E /* Copy Pods Resources */,
+				60E3151E239EE86A37B28389 /* [CP] Embed Pods Frameworks */,
+				09040C733036CDFBDC86D203 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,11 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TEArrayDiffCalculator_Tests" */;
 			buildPhases = (
-				CE33EDCF3A6822038CD1AA07 /* Check Pods Manifest.lock */,
+				B70360B04A2700EB1EA026D1 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				F31B339B6090450D1F9FBCEE /* Copy Pods Resources */,
+				6F18659A65A1490F3C99BFA7 /* [CP] Embed Pods Frameworks */,
+				8F2F73469A7F524BEFFEA697 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,14 +310,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C01D500A7590D433D401C28E /* Copy Pods Resources */ = {
+		09040C733036CDFBDC86D203 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,14 +325,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TEArrayDiffCalculator_Example/Pods-TEArrayDiffCalculator_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CE33EDCF3A6822038CD1AA07 /* Check Pods Manifest.lock */ = {
+		60E3151E239EE86A37B28389 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TEArrayDiffCalculator_Example/Pods-TEArrayDiffCalculator_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F18659A65A1490F3C99BFA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TEArrayDiffCalculator_Tests/Pods-TEArrayDiffCalculator_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E99883A3D7877DF60B37807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,34 +370,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F312C1EE181A37E4D8BA9129 /* Check Pods Manifest.lock */ = {
+		8F2F73469A7F524BEFFEA697 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F31B339B6090450D1F9FBCEE /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TEArrayDiffCalculator_Tests/Pods-TEArrayDiffCalculator_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70360B04A2700EB1EA026D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -496,7 +528,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5C7F927E128D673271F41A9 /* Pods-TEArrayDiffCalculator_Example.debug.xcconfig */;
+			baseConfigurationReference = 1B1E1AC100F60A4E70F2B9F3 /* Pods-TEArrayDiffCalculator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -511,7 +543,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0822FE9CD06B57458534B671 /* Pods-TEArrayDiffCalculator_Example.release.xcconfig */;
+			baseConfigurationReference = 06E04C45E4CB23CC0726380F /* Pods-TEArrayDiffCalculator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -526,7 +558,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65062837A52C2EB7A97B7C20 /* Pods-TEArrayDiffCalculator_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4011DC9DA9471290C752CAAC /* Pods-TEArrayDiffCalculator_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -549,7 +581,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31CF25D026DAC521A82F8B71 /* Pods-TEArrayDiffCalculator_Tests.release.xcconfig */;
+			baseConfigurationReference = EE67AECDEB35CEA4111D6DAD /* Pods-TEArrayDiffCalculator_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
